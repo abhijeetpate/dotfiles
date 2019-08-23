@@ -1,2 +1,3 @@
 dconf write /org/gnome/terminal/legacy/profiles:/:<id>/allow-bold false
 chsh -s /usr/bin/zsh
+unsetopt no_match
