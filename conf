@@ -1,3 +1,12 @@
+#Disable bold:
 dconf write /org/gnome/terminal/legacy/profiles:/:<id>/allow-bold false
+
+#zsh:
 chsh -s /usr/bin/zsh
 unsetopt no_match
+
+#export profile:
+dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+
+#import profile:
+dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
