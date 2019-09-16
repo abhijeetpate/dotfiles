@@ -109,8 +109,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-alias meta1="ssh -i ~/Downloads/metasploit_ctf_kali_ssh_key.pem ec2-user@ec2-54-145-228-206.compute-1.amazonaws.com"
-
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
