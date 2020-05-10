@@ -31,12 +31,13 @@ echo -e "\n\n\t----- Setup dotfiles -----"
 start
 
 # 2. install programs
-echo -e "\nChecking/Installing: vim, tmux, zsh, fzf, xclip\n"
+echo -e "\nChecking/Installing: vim, tmux, zsh, fzf, xclip, tree\n"
 check_install vim
 check_install tmux
 check_install zsh
 check_install fzf
 check_install xclip
+check_install tree
 
 # 3. switch to zsh
 echo -e "\nChanging default shell to zsh.."
